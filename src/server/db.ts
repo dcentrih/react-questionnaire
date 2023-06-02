@@ -1,4 +1,5 @@
 import { PrismaClient } from "@prisma/client";
+
 import { env } from "src/env.mjs";
 
 const globalForPrisma = globalThis as unknown as {
